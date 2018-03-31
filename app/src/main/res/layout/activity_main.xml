@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <!--Wallpaper-->
+   <!--centerCrop ตรงกลางสูงเท่ากับจอ ที่เหลือตัดทิ้ง-->
+   <ImageView
+       android:scaleType="centerCrop"
+       android:src="@drawable/bg7"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+   <!--Content of Fragment-->
+    <!--FrameLayout กินน้อยสุด-->
+    <!--match_parent เต็มพื้นที่-->
+<FrameLayout
+    android:id="@+id/contentMainFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</RelativeLayout>
