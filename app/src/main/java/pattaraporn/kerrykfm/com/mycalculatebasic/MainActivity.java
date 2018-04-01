@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }   //Main Method
 
+
+    @Override
+    public void onBackPressed() { //ตั้งค่ากดปุ่มundoไม่ให้ถอยหลังกลับ
+        //super.onBackPressed();
+    }
 }   // Main Class
