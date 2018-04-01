@@ -56,4 +56,13 @@
 
     </LinearLayout>
 
+    <!--List Data-->
+    <ListView
+        android:padding="15dp"
+        android:background="#b4ffffff"
+        android:id="@+id/ListViewExchange"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
 </LinearLayout>
